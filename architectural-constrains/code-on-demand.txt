@@ -1,0 +1,3 @@
+- RESTful API juga diperbolehkan mengembalikan script yang bisa dieksekusi oleh client jika diperlukan
+- Hal ini bisa mempermudah dari sisi client sehingga tidak perlu mengimplementasikan kode terlalu banyak, karena kode bisa dikirim oleh server
+- Code On Demand adalah design principal yang tidak wajib diimplementasikan ketika membuat RESTful API
