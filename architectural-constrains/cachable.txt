@@ -1,0 +1,1 @@
+- Mirip seperti Cache di HTTP, di client pada RESTful API juga bisa melakukan cache data di local. Sehingga tidak perlu meminta data terbaru di server
