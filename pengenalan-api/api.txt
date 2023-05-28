@@ -1,0 +1,5 @@
+API singkatan dari Application Programming Interface
+API adalah perantara yang menghubungkan satu pihak dengan pihak lain agar bisa saling berkomunkasi
+API berupa kumpulan prosedur, fungsi, cara berkomunkasi atau peralatan berkomunkasi
+Pihak yang terlibat dalam API bisa dalam bentuk perangkat lunak maupun perangkat keras
+API dan RPI (Remote Procedure Invocation) itu sama, hanya saja sekarang lebih populer istilah API dibanding RPI
