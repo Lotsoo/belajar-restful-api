@@ -1,0 +1,2 @@
+- Ini mirip dengan stateless di protokol HTTP
+- Salah satu kegunaannya adalah sehingga mudah di scaling, baik itu jumlah client juga server karena server atau client tidak peduli harus berinteraksi dengan client atau server manapun
