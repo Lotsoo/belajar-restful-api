@@ -1,0 +1,3 @@
+- REST singkatan dari REpresentational State Transfer
+- REST dikenalkan tahun 2000 pada Roy Fielding dalam disertasinya
+- RESTful API merupakan salah satu implementasi API yang memanfaatkan HTTP sebagai protokol komunikasinya
