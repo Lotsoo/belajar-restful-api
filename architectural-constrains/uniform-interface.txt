@@ -1,0 +1,6 @@
+- Salah satu yang membedakan RESTful API dengan teknologi RPC lain adalah, penggunaan antarmuka komunikasi yang seragam untuk semua pihak (client & server teknologi manapun)
+- Hal ini dikarenakan RESTful API menggunakan HTTP yang sudah standard sehingga seragam di semua teknologi atau bahasa pemrogramana
+- Data yang di ekspose di RESTful API juga haruslah general, tidak memiliki kompleksitas internal dari pemilik data, hal ini membuat perubahan apapun yang terjadi pada internal aplikasi, tidak akan berpengaruh dengan data yang di ekspose di API
+
+Contoh: 
+Jika client menerima data A maka di server pun akan mengeluarkan data A, walaupun di database ada data yang lain. Tetapi di server akan diolah lagi menjadi A sehingga menjadi general/seragam
