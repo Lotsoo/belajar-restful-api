@@ -1,0 +1,2 @@
+- RESTful API haruslah memisahkan antara kompleksitas data internal dengan yang akan dieskpose ke client
+- Oleh karena itu, RESTful API haruslah menggunakan arsitektur Client Server, sehingga Client tidak perlu tahu kompleksitas logic yang terjadi di Server
