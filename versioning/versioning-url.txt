@@ -1,0 +1,5 @@
+Versioning pada URL
+http://api.example.com/v1/products
+http://api.example.com/v2/products
+http://api.example.com/2019/products
+http://api.example.com/2020/products
