@@ -1,0 +1,48 @@
+- Resource dalam RESTful API adalah data yang sifatnya bisa satu atau banyak
+
+- Misal "customers" adalah kumpulan dari "customer", dimana "customer" adalah satu data customer
+
+- Gunakan kata benda, bukan kata kerja
+  Contoh Benar:
+  - http://api.example.com/products
+  - http://api.example.com/customers
+
+  Contoh Salah: 
+  - http://api.example.com/get-all-products
+  - http://api.example.com/select-members-table
+
+- Jika ada hirarki
+  Contoh Benar:
+  - http://api.example.com/products/{productId}/images
+  - http://api.example.com/merchants/{merchantId}/addresses
+
+  Contoh Salah:
+  - http://api.example.com/product-images/{productId}
+  - http://api.example.com/merchant-addresses/{merchantId}
+
+- Jika ada custom action
+  Contoh Benar: 
+  - http://api.example.com/users/login
+  - http://api.example.com/users/forget-password
+
+  Contoh Salah:
+  - http://api.example.com/login-user
+  - http://api.example.com/forget-password-user
+
+- Jika ada CRUD gunakan HTTP Method
+  Contoh Benar: 
+  - GET http://api.example.com/products/{productId}
+  - POST http://api.example.com/products
+
+  Contoh Salah:
+  - GET http://api.example.com/get-products-by-id/{productId}
+  - POST http://api.example.com/create-product
+
+- Jika ingin melakukan filter, gunakan query
+  Contoh Benar:
+  - http://api.example.com/products?name=indomie
+  - http://api.example.com/products?name=indomie&page=10
+
+  Contoh Salah:
+  - http://api.example.com/products/filter-by-name/{name}
+  - http://api.example.com/products/page/1
