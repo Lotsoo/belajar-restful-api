@@ -1,0 +1,6 @@
+Versioning pada HTTP Header
+HTTP Header => API-Version: 1
+HTTP Header => API-Version: 2
+HTTP Header => X-API-Version: 2019
+HTTP Header => X-API-Version: 2020
+
