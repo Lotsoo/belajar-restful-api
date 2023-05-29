@@ -1,0 +1,2 @@
+- OAuth2 : Mekanisme Authentication dan Authorization yang saat ini sangat populer
+- Banyak digunakan untuk integrasi antara aplikasi mobile dan server
