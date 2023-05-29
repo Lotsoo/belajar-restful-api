@@ -1,0 +1,3 @@
+Authentication adalah memvalidasi kredensial untuk memverifikasi pemilik identitas
+Contoh proses Authentication: 
+Proses login menggunakan username dan password, dan banyak yang lainnya
