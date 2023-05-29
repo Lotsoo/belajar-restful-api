@@ -1,0 +1,16 @@
+HATEOAS singkatan dari Hypermedia as the Engine of Application State
+Hypermedia artinya content yang memiliki link menuju resource yang ada
+
+Contoh:
+[
+  {
+      "id": 1,
+      "name": "Lotsoo",
+      "email": "lotso@example.com",
+      "_links": {
+          "self": "/customers/1"
+        }
+    }
+]
+
+key _links adalah contoh dari HATEOAS
