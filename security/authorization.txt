@@ -1,0 +1,4 @@
+Authorization adalah proses yang dilakukan setelah proses Authentication
+Memvalidasi hak akses untuk mengakses resource yang diminta
+Contoh proses Authorization adalah Access-Control-List
+Ketika user mencoba mengakses halaman admin, maka Authorization akan memvalidasinya
