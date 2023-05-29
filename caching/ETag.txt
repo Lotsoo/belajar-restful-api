@@ -1,0 +1,14 @@
+- Setelah client menyimpan data cache, setiap client mengirim request ke server, client akan menambahkan HTTP Header If-Not-Match
+- HTTP Header If-Not-Match berisikan data ETag yang sebelumnya didapat
+- Jika data tidak berubah, maka server akan mengembalikan HTTP Response Code 304: Not Modified
+
+Alur Kerja Cache:
+1. Client GET /products/1
+2. Server mengirim Response + ETag
+3. Client menyimpan di cache
+4. Client GET /products/1 + If-Not-Match (jika mengambil data yang sama)
+5. Server mengirim Response 304: Not Modified (server memberi tahu, bahwa tidak ada perubahan data)
+6. Client GET cache
+
+
+
