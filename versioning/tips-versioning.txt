@@ -1,0 +1,3 @@
+- Saat membuat RESTful API, usahakan tidak pernah merusak kompatibilitas tiap kita melakukan upgrade
+- Versioning hanya diperlukan ketika kita memang perlu merusak kompatibilitas RESTful API kita
+- Namun sebaiknya jangan, karena akan memakan cost yang sangat mahal di sisi client, client harus merubah aplikasi yang sudah berjalan
