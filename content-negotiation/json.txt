@@ -1,0 +1,13 @@
+JSON (JavaScript Object Notation)
+HTTP Body pada RESTful API pada saat ini menggunakan JSON karena populer
+
+Kenapa menggunakan JSON?
+- JSON sangat populer digunakan pada RESTful API
+- Data JSON sangat mudah dibuat dan dimengerti oleh manusia
+- Data dalam bentuk JSON sangat ringan
+
+Selalu menggunakan Response Status Code yang sesuai standarisasi HTTP
+Misal jika sukses, gunakan Response Status 2xx
+Jika data yang dikirim oleh client tidak valid, gunakan 4xx
+Jika terjadi masalah di server, gunakan 5xx
+
