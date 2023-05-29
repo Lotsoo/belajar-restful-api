@@ -1,0 +1,4 @@
+Caching pada RESTful API berbeda dengan HTTP
+Jika di HTTP memberikan masa kadarluasa, contoh 1 tahun
+Maka jika di RESTful API itu menggunakan ETag, ETag berisi versi dari resource yang diminta, misal
+ETag: "353jbj4234jkb234"
