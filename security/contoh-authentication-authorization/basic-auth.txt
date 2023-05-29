@@ -1,0 +1,4 @@
+- Basic Auth : Authentication sederhana menggunakan username dan password
+- Cukup menggunakan header Authorization
+- Contoh:
+  Authorization: Basic base64 (username:password)
