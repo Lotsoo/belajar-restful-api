@@ -1,0 +1,6 @@
+Stateless RESTful API
+
+- Stateless sederhananya adalah tidak menyimpan state atau data
+- RESTful API yang baik tidak pernah menyimpan state atau data antar request
+- Setiap request dari client ke server, harus berisikan semua informasi lengkap yang dibutuhkan oleh server
+- Client bertanggung jawab menyimpan dan melakukan manajemen state yang berhubungan dengan client
