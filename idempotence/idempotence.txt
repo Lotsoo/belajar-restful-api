@@ -1,0 +1,3 @@
+Dalam RESTful API, ketika membuat multiple request identik, yang harus memiliki efek yang sama seperti membuat 1 request.
+Dalam hal ini, maka RESTful API kita bisa bilang idempotent
+Idempotent itu sangat penting, karena saat membuat RESTful API, kita akan melakukan komunikasi antara client dan server via network, sehingga error bisa terjadi
