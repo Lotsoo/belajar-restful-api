@@ -1,0 +1,4 @@
+- Api-Key : Authentication sederhana menggunakan Api-Key atau Secret Key
+- Cukup menggunakan header sesuai yang diinginkan dan value berisi Api-Key atau Secret Key
+- Contoh:
+  Api-Key: random-api-key-fsaf5ffjsdf5k2j34
